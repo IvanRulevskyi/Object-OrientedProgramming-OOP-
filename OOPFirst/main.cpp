@@ -1,14 +1,7 @@
-//
-//  main.cpp
-//  OOPFirst
-//
-//  Created by Иван Рулевский on 08.04.2024.
-//
+#include "Functions.hpp"
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main()
+{
+    Phonebook phonecontact("Ivan", 12345678, 12345678, 12345678, "Frieds");
+    phonecontact.printContact();
 }
